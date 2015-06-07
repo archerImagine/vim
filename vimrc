@@ -7,4 +7,7 @@ filetype plugin indent on
 set exrc
 set secure
 
-let &path.="/usr/include",
+let &path.="/usr/include"
+
+let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
+
